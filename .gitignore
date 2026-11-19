@@ -1,0 +1,35 @@
+# Datos y materiales de terceros: mantenerlos localmente hasta confirmar permisos.
+data/raw/
+data/*.csv
+tmp/
+*.pdf
+*.png
+*.zip
+
+# Credenciales y configuración local.
+.env
+.env.*
+!.env.example
+*.pgpass
+*.p12
+*.pem
+*.key
+config.local.*
+
+# Entornos, cachés y archivos generados.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Resultados locales que puedan contener datos del caso.
+results/*.csv
+results/*.tsv
+results/*.xlsx
