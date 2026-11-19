@@ -54,11 +54,11 @@ The regional case is reproduced: NAM sales increase from 24,403,809.00 to 44,179
 
 ## Limitations and publication
 
-Academic CSVs and course materials are excluded from Git by default. No license is assigned to third-party materials. Before publishing, confirm redistribution rights or create a separate synthetic sample, clearly labelled as synthetic, without mixing its results with the academic data. No push has been made.
+Academic CSVs and course materials are excluded from Git by default. No license is assigned to third-party materials. Before publishing, confirm redistribution rights or create a separate synthetic sample, clearly labelled as synthetic, without mixing its results with the academic data. The initial commit has been pushed to GitHub.
 
 ## GitHub upload checklist
 
-- Review the files shown by `git status`.
-- Confirm that `data/raw/`, PDFs, ZIP files, credentials and temporary files are ignored.
+- Review future changes with `git status`.
+- Confirm that `data/raw/`, PDFs, ZIP files, credentials and temporary files remain ignored.
 - Do not commit passwords, local connection settings or third-party course materials.
-- Commit the project files locally, review the commit, and only then create the GitHub repository and push.
+- Review each future commit before pushing it to GitHub.
